@@ -1,0 +1,9 @@
+MakeItPortable is a directory structure and a little collection of Autohotkey scripts for easy creating of Portable Applications. A Portable App is a program that is self-contained in the directory it resides in. Read more at http://portableapps.com/
+
+To use this library you need Autohotkey, a great scripting and automation language for Windows. Download it here: http://www.autohotkey.com/
+You will use it to run the script files for testing, and compiling them to a launcher exe.
+
+The portable apps installer is very convenient when releasing the app: http://portableapps.com/news/2009-12-29_-_portableapps.com_installer_1.0.2
+The AppCompactor is good for shrinking size of the application: http://portableapps.com/apps/utilities/appcompactor
+
+And finally, information about the PortableApp.com Format specification: http://portableapps.com/development/portableapps.com_format
