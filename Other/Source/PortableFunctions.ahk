@@ -142,10 +142,12 @@ makeRegistryKey(rootKey, subKey, valueName)
 
 ; ----- Splash screen functions -----------------------------------------------
 
-DisplaySplash(splashFile)
+DisplaySplash(splashFile, delay = 1500)
 {
+	delay := -delay
+	
 	SplashImage, %splashFile%, b
-	SetTimer, SplashOff, -1500
+	SetTimer, SplashOff, %delay%
 }
 
 SplashOff:
